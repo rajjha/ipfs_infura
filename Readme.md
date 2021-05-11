@@ -1,4 +1,4 @@
-In this repo we are keeping the contents of ipfs.sol contract and files inside /src folder. We first have to create a react app using the following instruction and then have add/update content of react app /src directory with this directory /src files.
+In this repo I are keeping the contents of ipfs.sol contract and files inside /src folder. We first have to create a react app using the following instruction and then have add/update content of react app /src directory with this directory /src files.
 
 Implementation:
 React — Front end library
