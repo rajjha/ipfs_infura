@@ -55,7 +55,7 @@ return ipfsHash;
 Make sure your metamask is connected to the Ropsten network.
 Deploy the contract to the ropsten network with configuration shown in picture below.
 
-
+![alt text](https://github.com/rajjha/ipfs_infura/blob/master/Remix%20Contract%20Deploy.png?raw=true)
 
 Save the deployed contract address and ABI (Application binary interface) Json definition.
 
