@@ -95,7 +95,11 @@ Json ABI is:
 ]
 
 **Write code for React app:**
-Open the react app in your favorite editor and add/update the App.css, App.js, index.js web3.js, ipfs.js, and storehash.js files with content present in this directories /src files.
+Open the react app in your favorite editor and add/update the App.css, App.js, index.js web3.js, ipfs.js, and storehash.js files with content present in this directories /src files. Only change that you have to perform is to add your deployed contract address and ABI to storehash.js file. i.e
+
+const address = <Your contract address>;
+const abi = <Your contract ABI>
+
 
 **And that is all!**
 Start your react app with command : npm start
