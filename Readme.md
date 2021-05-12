@@ -1,6 +1,8 @@
+**This decentralized App (dApp) will take a file (audio,video,doc,images) as input from a user and upload it to the IPFS by invoking an Ethereum contract. The hash of the file will be stored on Ethereum.**
+
 In this repo I am keeping the contents of ipfs.sol contract and files inside /src folder. We first have to create a react app using the following instruction and then have add/update content of react app /src directory with this directory /src files.
 
-Implementation:
+**Implementation:**
 React — Front end library
 Solidity — Ethereum smart contract language
 IPFS — Decentralized storage
@@ -8,16 +10,16 @@ Infura —API access to IPFS
 
 
 
-Preparation: 
+**Preparation:** 
 
 Download Metamask from https://metamask.io/ , setup and create account. Connect the metamask to the ethereum ropsten network.
 Get ropesten test tokens from Faucet account - https://faucet.ropsten.be/ 
 
-Update Node and NPM
+**Update Node and NPM**
 
 $brew update && brew upgrade node && npm install -g npm
 
-Install Dependencies using Terminal:
+**Install Dependencies using Terminal:**
 
 $npm i -g create-react-app
 $npm install react-bootstrap
@@ -26,17 +28,17 @@ $npm install ipfs-api
 $npm install web3
 $npm install --save reactstrap
 
-Create react app: 
+**Create react app: **
 
 Create a project directory say “eth_lab” and generate a react app inside it. Name react app as “ipfs_infura”
 $mkdir eth_lab
 $cd eth_lab
 $create-react-app ipfs_infura
 
-Deploy the smart contract to Ropsten Network:
+**Deploy the smart contract to Ropsten Network:**
 
 Go to https://remix.ethereum.org
-Create a .sol file there with any name (say ipfs.sol). Paste following contract content to file.
+Create a .sol file there with any name (say ipfs.sol). Paste following contract content to file. You can also copy content from repo file ipfs.sol.
 
 pragma solidity ^0.8.1;
 contract Contract { 
@@ -52,8 +54,8 @@ return ipfsHash;
 }
 }
 
-Make sure your metamask is connected to the Ropsten network.
-Deploy the contract to the ropsten network with configuration shown in picture below.
+**Make sure your metamask is connected to the Ropsten network.
+Deploy the contract to the ropsten network with configuration shown in picture below.**
 
 ![alt text](https://github.com/rajjha/ipfs_infura/blob/master/Remix%20Contract%20Deploy.png?raw=true)
 
