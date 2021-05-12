@@ -1,6 +1,6 @@
 **This decentralized App (dApp) will take a file (audio,video,doc,images) as input from a user and upload it to the IPFS by invoking an Ethereum contract. The hash of the file will be stored on Ethereum.**
 
-In this repo I am keeping the contents of ipfs.sol contract and files inside /src folder. We first have to create a react app using the following instruction and then have add/update content of react app /src directory with this directory /src files.
+In this repo I am keeping the contents of ipfs.sol contract and files [App.css, App.js, index.js web3.js, ipfs.js, and storehash.js] inside /src folder. We first have to create a react app using the following instruction and then have to add/update content of react app /src directory with this directory /src files.
 
 **Implementation:**
 
